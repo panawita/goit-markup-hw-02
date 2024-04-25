@@ -8,48 +8,41 @@ ul {
   list-style-type: none;
 }
 
-.logo-p1 {
+.logo-link {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 3%;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.logo-p2 {
+.logo-p2-header {
   color: #2e2f42;
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 3%;
-  text-transform: uppercase;
 }
 .logo-p2-footer {
   color: #f4f4fd;
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 3%;
-  text-transform: uppercase;
 }
 .top-nav-link {
   color: #2e2f42;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 .top-nav-link:hover,
 .top-nav-link:focus,
 .top-nav-link:active {
   color: #404bbf;
 }
-.address a:hover,
-.address a:focus,
-.address a:active {
+.contact-details {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contact-details:hover,
+.contact-details:focus,
+.contact-details:active {
   color: #404bbf;
 }
 .top-nav a {
