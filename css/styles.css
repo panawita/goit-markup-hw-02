@@ -18,10 +18,10 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.logo-p2-header {
+.logo-part-header {
   color: #2e2f42;
 }
-.logo-p2-footer {
+.logo-part-footer {
   color: #f4f4fd;
 }
 .top-nav-link {
@@ -54,50 +54,66 @@ ul {
 .logo-link {
   text-decoration: none;
 }
-h1 {
+.main-heading {
   color: #ffffff;
   font-weight: bold;
   font-size: 56px;
-  line-height: 1.0714;
-  letter-spacing: 2%;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 h2 {
   color: #2e2f42;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 36px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-align: center;
+  line-height: 1.2;
 }
 h3 {
   color: #2e2f42;
-  font-weight: medium;
+  font-weight: 500;
   font-size: 20px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+}
+.our-team-h-primary {
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.our-team-card {
+  background-color: #ffffff;
 }
 .btn {
   background-color: #4d5ae5;
   border: none;
   cursor: pointer;
-}
-.btn-text {
   font-weight: 500;
-  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #ffffff;
-  font-weight: 500;
-  letter-spacing: 4%;
 }
 .btn:hover,
 .btn:focus,
 .btn:active {
   background-color: #404bbf;
 }
-.section1 {
+.first-section {
   background-color: #2e2f42;
 }
+p {
+  letter-spacing: 0.02em;
+}
+
 .our-team {
   background-color: #f4f4fd;
   text-align: center;
+}
+.portfolio-h-primary {
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 footer {
   background-color: #2e2f42;
@@ -107,4 +123,5 @@ footer a {
 }
 .p-footer {
   color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
