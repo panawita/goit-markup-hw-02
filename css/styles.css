@@ -43,11 +43,15 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .contact-details:hover,
 .contact-details:focus,
 .contact-details:active {
   color: #404bbf;
+}
+.logo-link {
+  text-decoration: none;
 }
 .top-nav a {
   text-decoration: none;
