@@ -34,11 +34,15 @@ ul {
 .top-nav-link:active {
   color: #404bbf;
 }
+.contact {
+  color: #434455;
+}
+
 .contact-details {
+  color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 .contact-details:hover,
 .contact-details:focus,
